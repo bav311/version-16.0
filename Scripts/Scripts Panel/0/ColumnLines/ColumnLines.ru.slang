@@ -1,0 +1,9 @@
+﻿var strNoOpenDocuments = "Нет открытых документов";
+var strNoLayoutWindow = "Откройте окно верстки!";
+var strLineColor = "Цвет линии";
+var strLineTint = "Оттенок цвета";
+var strTopIndent = "Отступ сверху";
+var strBottomIndent = "Отступ снизу";
+var strLineWidth = "Толщина";
+var strWithInsets = "Отступать на расстояние отступов фрейма/страницы";
+var strDeleteOldLines = "Удалить предыдущие линии";

@@ -1,0 +1,16 @@
+var langNoDoc = "Нет открытых документов!";
+var langNoSelection = "Выделите не менее двух объектов!";
+var langInfo = "Информация об объектах:"
+var langSelectBaseObject = "Базовый объект:    "
+var langLegend = "длина x высота : линия (тип)";
+var langVisibleBounds = "(использованы видимые размеры)";
+var langObjectFromList = "из списка";
+var langMinObject = "наименьший";
+var langMaxObject = "наибольший";
+var langSelectOptions = "Выберите настройки:";
+var langResizeWidth = "менять длину";
+var langResizeHeight = "менять высоту";
+var langCalcStroke = "учитывать линии";
+var langResizeContent = "менять содержимое";
+var langMinValue = "наименьшие размеры:";
+var langMaxValue = "наибольшие размеры:";

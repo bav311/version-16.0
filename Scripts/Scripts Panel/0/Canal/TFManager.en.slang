@@ -1,0 +1,17 @@
+var langNoDoc = "No documents open!";
+var langNoObj = "Select one text object!";
+var langFilesOptions = "Files Options:";
+var langLongNames = "long names";
+var langShortNames = "short names";
+var langURIEncoded = "URI encoded";
+var langTagBefore = "tag before:";
+var langTagAfter = "tag after:";
+var langManageOptions = "Manage Options:";
+var langPercent = "percent size:";
+var langMaxHeight = "max height:";
+var langMaxWidth = "max width:";
+var langSelectFolder = "Select folder containing the necessary files:";
+var langFolderNotSelect = "Folder is not selected!";
+var langAllDone = "All done!";
+var langPlaceErrors = "place errors.";
+var langReplaceErrors = "replace text errors.";

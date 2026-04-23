@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Sangam-Import-Preset reader-type="Word/RTF">
+	<!--Схемы преобразования стиля принимают форму пар "ключ - значение", состоящих из:
+название стиля: Название стиля исходного документа, например, название стиля RTF.
+Данный атрибут является обязательным, и строка значения не может быть не заполненной.
+преобразование в: Название стиля целевого документа InDesign. 
+Данный атрибут является обязательным, но строка значения может оставаться пустой.-->
+	<Style-Mappings>
+		<Paragraph-Style-Mappings>
+			<Mapping style-name="Обычный" mapped-to="" />
+		</Paragraph-Style-Mappings>
+		<Character-Style-Mappings>
+		</Character-Style-Mappings>
+	</Style-Mappings>
+	<!--Каждая установка импорта имеет два обязательных атрибута:
+название: Название установки (строка должна быть заполнена).
+значение:Значение установки (строка должна быть заполнена).
+Для булевых установок, тип 0 для "нет" и 1 для "да".-->
+	<Import-Preferences>
+		<Preference name="import-toc" value="1" />
+		<Preference name="import-index" value="1" />
+		<Preference name="import-hyperlink" value="1" />
+		<Preference name="import-tables" value="1" />
+		<Preference name="import-footnotes" value="1" />
+		<Preference name="import-endnotes" value="1" />
+		<Preference name="import-track-changes" value="1" />
+		<Preference name="import-preserve-graphics" value="1" />
+		<Preference name="spacing" value="1" />
+		<Preference name="break-before-para" value="0" />
+		<Preference name="use-typographers-quotes" value="1" />
+		<Preference name="convert-tables-to" value="0" />
+		<Preference name="remove-formatting" value="1" />
+		<Preference name="dont-strip-char-formatting" value="1" />
+		<Preference name="bring-unused-styles" value="0" />
+		<Preference name="para-style-clash-option" value="0" />
+		<Preference name="char-style-clash-option" value="0" />
+		<Preference name="use-style-mappings" value="0" />
+		<Preference name="convert-BN-to-text" value="0" />
+	</Import-Preferences>
+</Sangam-Import-Preset>

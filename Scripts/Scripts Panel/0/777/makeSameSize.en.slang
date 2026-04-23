@@ -1,0 +1,16 @@
+var langNoDoc = "No documents open!";
+var langNoSelection = "Select two or more objects!";
+var langInfo = "Objects informations:"
+var langSelectBaseObject = "Base object:"
+var langLegend = "width x height : stroke (type)";
+var langVisibleBounds = "(visible bounds used)";
+var langObjectFromList = "from list";
+var langMinObject = "minimum";
+var langMaxObject = "maximum";
+var langSelectOptions = "Select options:";
+var langResizeWidth = "resize width";
+var langResizeHeight = "resize height";
+var langCalcStroke = "calculate stroke";
+var langResizeContent = "resize contents";
+var langMinValue = "minimum size:";
+var langMaxValue = "maximum size:";

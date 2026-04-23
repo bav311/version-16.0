@@ -1,0 +1,36 @@
+# Calendar Wizard Preset File
+#
+# Lines staring with a '#' symbol are comments
+
+# Start Month
+# -------------------- 
+#   January
+#   February
+#   March
+#   April
+#   May
+#   June
+#   July
+#   August
+#   September
+#   October
+#   November
+#   December
+Start Month = January
+
+# End Month
+# -------------------- 
+#   January
+#   February
+#   March
+#   April
+#   May
+#   June
+#   July
+#   August
+#   September
+#   October
+#   November
+#   December
+End Month = December
+

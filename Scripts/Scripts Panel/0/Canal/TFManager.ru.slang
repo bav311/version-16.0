@@ -1,0 +1,17 @@
+var langNoDoc = "Нет открытых докуметов!";
+var langNoObj = "Выберите один текстовый объект!";
+var langFilesOptions = "Настройки файлов:";
+var langLongNames = "длинные имена";
+var langShortNames = "короткие имена";
+var langURIEncoded = "URI кодирование";
+var langTagBefore = "тэг перед:";
+var langTagAfter = "тэг после:";
+var langManageOptions = "Настройки управления:";
+var langPercent = "процент от размера:";
+var langMaxHeight = "максимальная высота:";
+var langMaxWidth = "максимальная ширина:";
+var langSelectFolder = "Выберите папку, содержащую нужные файлы:";
+var langFolderNotSelect = "Папка не выбрана!";
+var langAllDone = "Все готово!";
+var langPlaceErrors = "ошибок помещения файла.";
+var langReplaceErrors = "ошибок замены текста.";

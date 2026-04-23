@@ -1,0 +1,27 @@
+###########
+# 
+# calendar Preset
+#
+# How this preset works:
+# ----------------------
+# Any values specified below will be applied after 
+# the listCalendar GUI has closed but before the calendar is constructed.
+# Thus a preset can be made that will override all or some of the parameters
+# in the GUI; however, any parameter not overridded in the preset can be 
+# controlled from the GUI.
+#
+# As an example for when this is useful.  There may be a standard layout with
+# a specific page size, calendar placement and picture placement; howwever, sometimes
+# the column order needs to be date then day, and other times it should be day then
+# date.  With this model, the 'day-date' order setting is not included in the preset
+# and can therefore be overridded; however, the page size and layout will always be 
+# set to the values in the preset regardless of entries in the GUI.
+#
+# How To use this File:
+# ---------------------
+# Any text after a pound sign, "#", will be ignored.
+# Parameters are defined as key/value pairs with the syntax key = value
+# The keys and values need to be spelled correctly with the proper case.
+# Commenting a key-value pair is a good way to keep visibility of the 
+# setting, but not apply it.
+

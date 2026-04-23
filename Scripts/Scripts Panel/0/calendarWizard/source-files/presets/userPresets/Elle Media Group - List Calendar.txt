@@ -1,0 +1,172 @@
+# Calendar Wizard Preset File
+#
+# Lines staring with a '#' symbol are comments
+
+
+# Calendar Type
+# -------------
+#   Grid
+#   List
+#   Line
+Calendar Type = List
+
+# Holidays
+# --------
+Get Holidays From File = UK_2015-2016:A
+
+
+# Highlight Weekend Options
+# -------------------- 
+#   None
+#   Weekends
+#   Sunday
+#   Saturday
+Highlight Weekend Options = Weekends
+
+# List Calendar Column Count
+# -------------------- 
+#   1
+#   2
+List Calendar Column Count = 2
+
+# List Calendar Column Gutter
+# -------------------- 
+#   A Number
+List Calendar Column Gutter = 0.5
+
+# Add Week Day Column To List Calendar
+# -------------------- 
+#   Either true or false
+Add Week Day Column To List Calendar = true
+
+# Date Column Width
+# -------------------- 
+#   A number
+Date Column Width = 1
+
+# Week Day Column Width
+# -------------------- 
+#   A number
+Week Day Column Width = 3
+
+# Document Units
+# -------------------- 
+#   inches
+#   points
+#   centimeters
+Document Units = centimeters
+
+# Custom Frame Units
+# -------------------- 
+#   inches
+#   points
+#   centimeters
+Custom Frame Units = centimeters
+
+# Document Height
+# -------------------- 
+#   A number
+Document Height = 33
+
+# Document Width
+# -------------------- 
+#   A number
+Document Width = 17
+
+# Document Bleed
+# -------------------- 
+#   A number
+Document Bleed = 0.3
+
+# Document Margins
+# -------------------- 
+#   A number
+Document Margins = 1
+
+# Calendar Custom Top Edge
+# -------------------- 
+#   A number
+Calendar Custom Top Edge = 4.8
+
+# Calendar Custom Left Edge
+# -------------------- 
+#   A number
+Calendar Custom Left Edge = 1
+
+# Calendar Custom Width
+# -------------------- 
+#   A number
+Calendar Custom Width = 15
+
+# Calendar Custom Height
+# -------------------- 
+#   A number
+Calendar Custom Height = 18
+
+# Month Custom Top Edge
+# -------------------- 
+#   A number
+Month Custom Top Edge = 1
+
+# Month Custom Left Edge
+# -------------------- 
+#   A number
+Month Custom Left Edge = 1
+
+# Month Custom Width
+# -------------------- 
+#   A number
+Month Custom Width = 10
+
+# Month Custom Height
+# -------------------- 
+#   A number
+Month Custom Height = 3.8
+
+# Year Custom Top Edge
+# -------------------- 
+#   A number
+Year Custom Top Edge = 1
+
+# Year Custom Left Edge
+# -------------------- 
+#   A number
+Year Custom Left Edge = 11
+
+# Year Custom Width
+# -------------------- 
+#   A number
+Year Custom Width = 5
+
+# Year Custom Height
+# -------------------- 
+#   A number
+Year Custom Height = 3.8
+
+# Picture Custom Top Edge
+# -------------------- 
+#   A number
+Picture Custom Top Edge = 22.8
+
+# Picture Custom Left Edge
+# -------------------- 
+#   A number
+Picture Custom Left Edge = 1
+
+# Picture Custom Width
+# -------------------- 
+#   A number
+Picture Custom Width = 15
+
+# Picture Custom Height
+# -------------------- 
+#   A number
+Picture Custom Height = 9.2
+
+# Document Units
+# -------------------- 
+#   inches
+#   points
+#   centimeters
+Document Units = centimeters
+

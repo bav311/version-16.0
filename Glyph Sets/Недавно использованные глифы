@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<glyphset>
+<insert-order value="-1"></insert-order>
+<glyph>
+<font psname="Wingdings3" technology="TrueType" remember="true">
+</font>
+<unicode value="F051" />
+<id value="52" />
+</glyph>
+<glyph>
+<font psname="SymbolMT" technology="TrueType" remember="true">
+</font>
+<unicode value="2229" />
+<id value="136" />
+</glyph>
+<glyph>
+<font psname="FontAwesome" technology="TrueType" remember="true">
+</font>
+<unicode value="F2A7" />
+<id value="638" />
+</glyph>
+<glyph>
+<font psname="FontAwesome" technology="TrueType" remember="true">
+</font>
+<unicode value="F24E" />
+<id value="555" />
+</glyph>
+<glyph>
+<font psname="Wingdings2" technology="TrueType" remember="true">
+</font>
+<unicode value="F0F3" />
+<id value="213" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F05E" />
+<id value="69" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F021" />
+<id value="4" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F059" />
+<id value="60" />
+</glyph>
+<glyph>
+<font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
+</font>
+<unicode value="0058" />
+<id value="25" />
+</glyph>
+<glyph>
+<font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
+</font>
+<unicode value="0070" />
+<id value="43" />
+</glyph>
+<glyph>
+<font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
+</font>
+<unicode value="0071" />
+<id value="44" />
+</glyph>
+<glyph>
+<font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
+</font>
+<unicode value="0065" />
+<id value="32" />
+</glyph>
+<glyph>
+<font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
+</font>
+<unicode value="0061" />
+<id value="28" />
+</glyph>
+<glyph>
+<font psname="NotoColorEmoji-SVG" technology="Type1" remember="true">
+</font>
+<id value="1558" />
+</glyph>
+<glyph>
+<font psname="NotoColorEmoji-SVG" technology="Type1" remember="true">
+</font>
+<id value="1538" />
+</glyph>
+<glyph>
+<font psname="NotoColorEmoji-SVG" technology="Type1" remember="true">
+</font>
+<id value="1540" />
+</glyph>
+<glyph>
+<font psname="NotoColorEmoji-SVG" technology="Type1" remember="true">
+</font>
+<id value="1539" />
+</glyph>
+<glyph>
+<font psname="PTSerif-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="007D" />
+<id value="96" />
+</glyph>
+<glyph>
+<font psname="Panton-Bold" technology="Type1" remember="true">
+</font>
+<unicode value="20BD" />
+<id value="435" />
+</glyph>
+<glyph>
+<font psname="Wingdings3" technology="TrueType" remember="true">
+</font>
+<unicode value="F075" />
+<id value="88" />
+</glyph>
+<glyph>
+<font psname="PTSerif-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="201D" />
+<id value="549" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F0E7" />
+<id value="205" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F022" />
+<id value="5" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0E3" />
+<id value="197" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0BF" />
+<id value="161" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0BE" />
+<id value="160" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F052" />
+<id value="53" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0FB" />
+<id value="221" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F056" />
+<id value="57" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F055" />
+<id value="56" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0D6" />
+<id value="183" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0D5" />
+<id value="182" />
+</glyph>
+<glyph>
+<font psname="OpenSymbol" technology="TrueType" remember="true">
+</font>
+<unicode value="E503" />
+<id value="802" />
+</glyph>
+<glyph>
+<font psname="OpenSymbol" technology="TrueType" remember="true">
+</font>
+<unicode value="E400" />
+<id value="662" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0B8" />
+<id value="154" />
+</glyph>
+</glyphset>

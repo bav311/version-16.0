@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<glyphset>
+<insert-order value="1"></insert-order>
+<glyph>
+<font psname="PTSerif-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="20B6" />
+<id value="565" />
+</glyph>
+<glyph>
+<font psname="PTSerif-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="20BA" />
+<id value="568" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F022" />
+<id value="5" />
+</glyph>
+<glyph>
+<font psname="Wingdings3" technology="TrueType" remember="true">
+</font>
+<unicode value="F075" />
+<id value="88" />
+</glyph>
+<glyph>
+<font psname="Webdings" technology="TrueType" remember="true">
+</font>
+<unicode value="F0FB" />
+<id value="221" />
+</glyph>
+</glyphset>
