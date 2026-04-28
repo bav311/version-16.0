@@ -43,7 +43,7 @@ function main() {
 	// Query [[3TV Day]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"Понедельник, \\d|Вторник, \\d|Среда, \\d|Четверг, \\d|Пятница, \\d|Суббота, \\d|Воскресенье, \\d"});
+		app.findGrepPreferences.properties = ({findWhat:"Понедельник.+\\d{1,2}|Вторник.+\\d{1,2}|Среда.+\\d{1,2}|Четверг.+\\d{1,2}|Пятница.+\\d{1,2}|Суббота.+\\d{1,2}|Воскресенье.+\\d{1,2}"});
 		app.changeGrepPreferences.properties = ({});
 		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
 		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '3TV Day') );
