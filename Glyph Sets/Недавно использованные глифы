@@ -2,6 +2,12 @@
 <glyphset>
 <insert-order value="-1"></insert-order>
 <glyph>
+<font psname="SoftwareKit7" technology="Type1" remember="true">
+</font>
+<unicode value="002A" />
+<id value="11" />
+</glyph>
+<glyph>
 <font psname="Wingdings3" technology="TrueType" remember="true">
 </font>
 <unicode value="F051" />
@@ -200,11 +206,5 @@
 </font>
 <unicode value="E400" />
 <id value="662" />
-</glyph>
-<glyph>
-<font psname="Webdings" technology="TrueType" remember="true">
-</font>
-<unicode value="F0B8" />
-<id value="154" />
 </glyph>
 </glyphset>

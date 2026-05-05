@@ -9,7 +9,7 @@
 </QueryType>
 </Header>
 <Description>
-<FindExpression value="Понедельник.+\d{1,2}|Вторник.+\d{1,2}|Среда.+\d{1,2}|Четверг.+\d{1,2}|Пятница.+\d{1,2}|Суббота.+\d{1,2}|Воскресенье.+\d{1,2}">
+<FindExpression value="^Понедельник.+\d{1,2}|^Вторник.+\d{1,2}|^Среда.+\d{1,2}|^Четверг.+\d{1,2}|^Пятница.+\d{1,2}|^Суббота.+\d{1,2}|^Воскресенье.+\d{1,2}">
 </FindExpression>
 <ReplaceExpression value="">
 </ReplaceExpression>
