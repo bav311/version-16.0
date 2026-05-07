@@ -4,7 +4,7 @@
 <OWLWorkspaceBookmark bookmarkdata="workspacedata-is-in-CDATA-section">
 <![CDATA[<workspace version="1">
 	<dock anchor="top" content="control-bar" is-closed="false">
-		<control-bar id="1" origin="-15 -2" size="1263 57" is-closed="false" app-data="#lt;OWLPaletteLeaf name=#quot;Control Strip#quot; id=#quot;70913#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+		<control-bar id="1" origin="-15 -2" size="1271 57" is-closed="false" app-data="#lt;OWLPaletteLeaf name=#quot;Control Strip#quot; id=#quot;70913#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;30255#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;30256#quot; visible=#quot;true#quot;>
@@ -21,15 +21,11 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;113362#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;70931#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;71021#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70925#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70970#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -63,13 +59,17 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;8527#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
+#lt;ControlSet id=#quot;70931#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;71021#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70925#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
+#lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -104,7 +104,7 @@
 	<dock anchor="left" content="palette toolbar" is-closed="false"/>
 	<dock anchor="right" content="palette toolbar" is-closed="false">
 		<tab-pane mode="icon" preferred-iconic-length="199" layout-mode="auto-flow">
-			<tab-group active-palette="2" is-closed="false">
+			<tab-group active-palette="3" is-closed="false">
 				<palette id="2" is-closed="false" preferred-unconstrained-size="374 313" preferred-constrained-size="374 313" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
@@ -127,7 +127,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="9" is-closed="false">
+			<tab-group active-palette="7" is-closed="false">
 				<palette id="7" is-closed="false" preferred-unconstrained-size="271 681" preferred-constrained-size="271 109" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Swatches#quot; id=#quot;16385#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;16496#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
@@ -138,7 +138,7 @@
 				<palette id="8" is-closed="false" preferred-unconstrained-size="240 138" preferred-constrained-size="240 138" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Color#quot; id=#quot;29241#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="9" is-closed="false" preferred-unconstrained-size="271 688" preferred-constrained-size="271 688" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="9" is-closed="false" preferred-unconstrained-size="271 688" preferred-constrained-size="271 116" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
@@ -151,7 +151,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="13" is-closed="false">
+			<tab-group active-palette="12" is-closed="false">
 				<palette id="11" is-closed="false" preferred-unconstrained-size="240 201" preferred-constrained-size="240 201" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TransparencyPaletteName#quot; id=#quot;67841#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;EffectsPanelOptions effectsTargetsExpanded=#quot;true#quot;>
 #lt;/EffectsPanelOptions>
@@ -230,7 +230,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="17" is-closed="false">
+			<tab-group active-palette="16" is-closed="false">
 				<palette id="16" is-closed="false" preferred-unconstrained-size="240 332" preferred-constrained-size="240 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;#hash;LayerHierPanelName#quot; id=#quot;18464#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;LayerPaneOptions SmallRows=#quot;false#quot;>
 #lt;/LayerPaneOptions>
@@ -652,7 +652,7 @@
 	<dock anchor="none" content="palette toolbar" origin="1304 226" is-closed="true">
 		<tab-pane mode="expanded" preferred-iconic-length="128" layout-mode="manual">
 			<tab-group active-palette="73" is-closed="false">
-				<palette id="73" is-closed="false" preferred-unconstrained-size="240 167" preferred-constrained-size="240 167" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Info#quot; id=#quot;89089#quot; minimized=#quot;false#quot; detailLevel=#quot;2#quot; closed=#quot;false#quot;>
+				<palette id="73" is-closed="false" preferred-unconstrained-size="240 182" preferred-constrained-size="240 182" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Info#quot; id=#quot;89089#quot; minimized=#quot;false#quot; detailLevel=#quot;2#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
