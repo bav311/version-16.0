@@ -3,8 +3,10 @@ var current = win.transformReferencePoint;
 
 // Определяем порядок переключения (можно менять местами)
 var points = [
+	// AnchorPoint.TOP_LEFT_ANCHOR,
+    AnchorPoint.TOP_CENTER_ANCHOR,
 	AnchorPoint.CENTER_ANCHOR,
-    AnchorPoint.TOP_CENTER_ANCHOR
+	AnchorPoint.BOTTOM_CENTER_ANCHOR
     
 ];
 
