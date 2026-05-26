@@ -9,7 +9,7 @@
 </QueryType>
 </Header>
 <Description>
-<FindExpression value="(?&lt;!, )^(2|3|4):\d{2}(?!,).+">
+<FindExpression value="(?&lt;!, )^(2|3|4|02|03|04):\d{2}(?!,).+">
 </FindExpression>
 <ReplaceExpression value="">
 </ReplaceExpression>

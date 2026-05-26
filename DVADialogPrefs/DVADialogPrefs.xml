@@ -15,9 +15,9 @@
 &lt;key&gt;Position&lt;/key&gt;
 &lt;array&gt;
 &lt;array.type&gt;&lt;int type=&apos;signed&apos; size=&apos;32&apos;/&gt;&lt;/array.type&gt;
-&lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;248&lt;/int&gt;
+&lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;234&lt;/int&gt;
 &lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;192&lt;/int&gt;
-&lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;784&lt;/int&gt;
+&lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;812&lt;/int&gt;
 &lt;int type=&apos;signed&apos; size=&apos;32&apos;&gt;680&lt;/int&gt;
 &lt;/array&gt;
 &lt;/prop.pair&gt;

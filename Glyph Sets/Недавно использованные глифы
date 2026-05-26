@@ -2,6 +2,36 @@
 <glyphset>
 <insert-order value="-1"></insert-order>
 <glyph>
+<font psname="Wingdings2" technology="TrueType" remember="true">
+</font>
+<unicode value="F098" />
+<id value="122" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F0AE" />
+<id value="147" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F0A2" />
+<id value="124" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F076" />
+<id value="153" />
+</glyph>
+<glyph>
+<font psname="Wingdings-Regular" technology="TrueType" remember="true">
+</font>
+<unicode value="F075" />
+<id value="139" />
+</glyph>
+<glyph>
 <font psname="PantonIcons-AFillLight" technology="Type1" remember="true">
 </font>
 <unicode value="0043" />

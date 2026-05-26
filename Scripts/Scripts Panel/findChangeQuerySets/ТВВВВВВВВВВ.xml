@@ -15,4 +15,5 @@
   <item type="grep" view="0" name="81_ удалить пустые строки"/>
   <item type="grep" view="0" name="94_удалить 6-00 в конце фрейма"/>
   <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
+  <item type="grep" view="0" name="96_удалить ведущие нули"/>
 </set>

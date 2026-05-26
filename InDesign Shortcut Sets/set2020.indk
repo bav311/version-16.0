@@ -36,7 +36,7 @@
 		<string>Ctrl+#Keyboard_F4</string>
 	</shortcut>
 	<shortcut>
-		<action-id value="0x100 + 9" name="KBSCE Edit menu:&amp;Отменить Заменить"></action-id>
+		<action-id value="0x100 + 9" name="KBSCE Edit menu:&amp;Отменить Очистить"></action-id>
 		<context>DefaultContext</context>
 		<string>Ctrl+Z</string>
 	</shortcut>
@@ -861,7 +861,7 @@
 		<string>Ctrl+H</string>
 	</shortcut>
 	<shortcut>
-		<action-id value="0x5f00 + 12" name="KBSCE View menu: ExtrasSubmenu: :Show Te&amp;xt Threads"></action-id>
+		<action-id value="0x5f00 + 12" name="KBSCE View menu: ExtrasSubmenu: :Hide Te&amp;xt Threads"></action-id>
 		<context>DefaultContext</context>
 		<string>Ctrl+Alt+Y</string>
 	</shortcut>
@@ -1111,7 +1111,7 @@
 		<string>Ctrl+Alt+B</string>
 	</shortcut>
 	<shortcut>
-		<action-id value="0x10500 + 6" name="KBSCE Table menu:kTablesMenuCreate Table"></action-id>
+		<action-id value="0x10500 + 6" name="KBSCE Table menu:kTablesMenuInsert Table..._&amp;"></action-id>
 		<context>TextContext</context>
 		<string>Shift+Ctrl+Alt+T</string>
 	</shortcut>

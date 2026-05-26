@@ -79,7 +79,7 @@ function main() {
 	// Query [[6_удалить строку с одиночным временем 2-3-4]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"(?<!, )^(2|3|4):\\d{2}(?!,).+"});
+		app.findGrepPreferences.properties = ({findWhat:"(?<!, )^(2|3|4|02|03|04):\\d{2}(?!,).+"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -115,7 +115,7 @@ function main() {
 	// Query [[7_1_удалть 7-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^7:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
 		app.changeGrepPreferences.properties = ({changeTo:"$1"});
 		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
 		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '7_1_удалть 7-00 матч тв') );
@@ -127,7 +127,7 @@ function main() {
 	// Query [[7_2_удалть 6-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^6:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
 		app.changeGrepPreferences.properties = ({changeTo:"$1"});
 		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
 		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '7_2_удалть 6-00 матч тв') );
@@ -173,23 +173,12 @@ function main() {
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
-	app.findChangeGrepOptions.properties = options;
 	app.findGrepPreferences = NothingEnum.NOTHING;
 	app.changeGrepPreferences = NothingEnum.NOTHING;
-	app.scriptPreferences.version = scriptVersion;
-	// Query [[94_удалить 6-00 в конце фрейма]] -- If you delete this comment you break the update function
+	// Query [[96_удалить ведущие нули]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"6:\\d\\d.+\\Z"});
-		app.changeGrepPreferences.properties = ({});
-		changeObject.changeGrep();
-	} catch (e) {alert(e + ' at line ' + e.line)}
-	app.findGrepPreferences = NothingEnum.NOTHING;
-	app.changeGrepPreferences = NothingEnum.NOTHING;
-	// Query [[95_удалить_Пустые строки в конце файл]] -- If you delete this comment you break the update function
-	try {
-		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"\\s+\\Z"});
+		app.findGrepPreferences.properties = ({findWhat:"^0(?=\\d)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
