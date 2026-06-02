@@ -4,7 +4,7 @@
 <OWLWorkspaceBookmark bookmarkdata="workspacedata-is-in-CDATA-section">
 <![CDATA[<workspace version="1">
 	<dock anchor="top" content="control-bar" is-closed="false">
-		<control-bar id="1" origin="-15 -2" size="1263 57" is-closed="false" app-data="#lt;OWLPaletteLeaf name=#quot;Control Strip#quot; id=#quot;70913#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+		<control-bar id="1" origin="-15 -2" size="1235 57" is-closed="false" app-data="#lt;OWLPaletteLeaf name=#quot;Control Strip#quot; id=#quot;70913#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;30255#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;30256#quot; visible=#quot;true#quot;>
@@ -28,12 +28,6 @@
 #lt;ControlSet id=#quot;70925#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70970#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -68,6 +62,12 @@
 #lt;ControlSet id=#quot;8527#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -270,7 +270,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="30" is-closed="false">
+			<tab-group active-palette="27" is-closed="false">
 				<palette id="24" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Design#quot; id=#quot;34405#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Design.indl#quot; libraryName=#quot;Design.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>

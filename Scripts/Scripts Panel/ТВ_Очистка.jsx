@@ -115,11 +115,8 @@ function main() {
 	// Query [[7_1_удалть 7-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
-		app.changeGrepPreferences.properties = ({changeTo:"$1"});
-		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
-		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '7_1_удалть 7-00 матч тв') );
-		app.changeGrepPreferences.appliedParagraphStyle =  style;
+		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
 	app.findGrepPreferences = NothingEnum.NOTHING;
@@ -127,11 +124,8 @@ function main() {
 	// Query [[7_2_удалть 6-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
-		app.changeGrepPreferences.properties = ({changeTo:"$1"});
-		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
-		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '7_2_удалть 6-00 матч тв') );
-		app.changeGrepPreferences.appliedParagraphStyle =  style;
+		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
 	app.findGrepPreferences = NothingEnum.NOTHING;
@@ -139,11 +133,8 @@ function main() {
 	// Query [[7_3_удалть 5-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^5:.*\\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
-		app.changeGrepPreferences.properties = ({changeTo:"$1"});
-		style = getStyleByString(doc, 'TV-Day', 'paragraphStyles');
-		if (!style.isValid) throw Error(localize(({en:"Missing change pagraphstyle [%1] for query [%2]", de:"Fehlendes Ersetze-Absatzsformat [%1] bei Abfrage [%2]", fr:"La requête [%2] invoque en remplacement un style de paragraphe manquant : [%1]", ja_JP:"クエリ[%2]の置換形式に設定された段落スタイル[%1]が見つかりませんでした", nl:"Vervangende alineastijl [%1] mist voor zoekopdracht [%2]"}), 'TV-Day', '7_3_удалть 5-00 матч тв') );
-		app.changeGrepPreferences.appliedParagraphStyle =  style;
+		app.findGrepPreferences.properties = ({findWhat:"^5|05:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
 	app.findGrepPreferences = NothingEnum.NOTHING;
@@ -160,7 +151,7 @@ function main() {
 	// Query [[94_удалить 6-00 в конце фрейма]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"6:\\d\\d.+\\Z"});
+		app.findGrepPreferences.properties = ({findWhat:"^06.+\\r*(?=\\Z)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}

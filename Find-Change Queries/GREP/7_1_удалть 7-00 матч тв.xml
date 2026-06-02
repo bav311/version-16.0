@@ -9,9 +9,9 @@
 </QueryType>
 </Header>
 <Description>
-<FindExpression value="^7|07:.*\r(Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)">
+<FindExpression value="^7|07:.*\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)">
 </FindExpression>
-<ReplaceExpression value="$1">
+<ReplaceExpression value="">
 </ReplaceExpression>
 <FindChangeOptions>
 <IncludeLockedLayers value="0">
@@ -32,8 +32,6 @@
 <FindFormatSettings>
 </FindFormatSettings>
 <ReplaceFormatSettings>
-<TextAttribute type="pstyle" value="TV-Day">
-</TextAttribute>
 <TextAttribute type="changecondmode" value="0">
 </TextAttribute>
 </ReplaceFormatSettings>

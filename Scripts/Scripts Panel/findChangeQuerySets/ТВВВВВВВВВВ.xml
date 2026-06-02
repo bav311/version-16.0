@@ -9,11 +9,11 @@
   <item type="grep" view="0" name="71_Прямая трансляция"/>
   <item type="grep" view="0" name="72_Смешанные единоборства"/>
   <item type="grep" view="0" name="73_Исторические концерты"/>
-  <item type="grep" view="0" name="7_1_удалть 7-00 матч тв"/>
-  <item type="grep" view="0" name="7_2_удалть 6-00 матч тв"/>
-  <item type="grep" view="0" name="7_3_удалть 5-00 матч тв"/>
   <item type="grep" view="0" name="81_ удалить пустые строки"/>
   <item type="grep" view="0" name="94_удалить 6-00 в конце фрейма"/>
   <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
+  <item type="grep" view="0" name="7_1_удалть 7-00 матч тв"/>
+  <item type="grep" view="0" name="7_2_удалть 6-00 матч тв"/>
+  <item type="grep" view="0" name="7_3_удалть 5-00 матч тв"/>
   <item type="grep" view="0" name="96_удалить ведущие нули"/>
 </set>

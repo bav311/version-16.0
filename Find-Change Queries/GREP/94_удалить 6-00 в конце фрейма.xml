@@ -9,7 +9,7 @@
 </QueryType>
 </Header>
 <Description>
-<FindExpression value="6:\d\d.+\Z">
+<FindExpression value="^06.+\r*(?=\Z)">
 </FindExpression>
 <ReplaceExpression value="">
 </ReplaceExpression>
