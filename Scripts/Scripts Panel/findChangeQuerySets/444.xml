@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set type="array">
+  <item type="grep" view="0" name="1TV"/>
+  <item type="grep" view="0" name="2TV Style"/>
+  <item type="grep" view="0" name="3TV Day"/>
+  <item type="grep" view="0" name="4TV Kanal"/>
+  <item type="grep" view="0" name="5_1Tv time"/>
+  <item type="grep" view="0" name="6_удалить строку с одиночным временем 2-3-4"/>
+  <item type="grep" view="0" name="71_Прямая трансляция"/>
+  <item type="grep" view="0" name="72_Смешанные единоборства"/>
+  <item type="grep" view="0" name="73_Исторические концерты"/>
+  <item type="grep" view="0" name="81_ удалить пустые строки"/>
+  <item type="grep" view="0" name="94_удалить 6-00 в конце фрейма"/>
+  <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
+  <item type="grep" view="0" name="96_удалить ведущие нули"/>
+</set>

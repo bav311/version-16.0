@@ -19,11 +19,7 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;67853#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;113362#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
+#lt;ControlSet id=#quot;113362#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70931#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -32,6 +28,8 @@
 #lt;ControlSet id=#quot;70925#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70970#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -67,7 +65,13 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
+#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;71018#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70996#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -87,10 +91,6 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;130619#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;71018#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70923#quot; visible=#quot;true#quot;>
@@ -104,7 +104,7 @@
 	<dock anchor="left" content="palette toolbar" is-closed="false"/>
 	<dock anchor="right" content="palette toolbar" is-closed="false">
 		<tab-pane mode="icon" preferred-iconic-length="199" layout-mode="auto-flow">
-			<tab-group active-palette="2" is-closed="false">
+			<tab-group active-palette="5" is-closed="false">
 				<palette id="2" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Design#quot; id=#quot;34405#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Design.indl#quot; libraryName=#quot;Design.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
@@ -114,7 +114,7 @@
 				<palette id="4" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;2024 Цветы#quot; id=#quot;34413#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\2024 Цветы.indl#quot; libraryName=#quot;2024 Цветы.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="5" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Инфографика#quot; id=#quot;34407#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Инфографика.indl#quot; libraryName=#quot;Инфографика.indl#quot;>
+				<palette id="5" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Инфографика#quot; id=#quot;34407#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Инфографика.indl#quot; libraryName=#quot;Инфографика.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 				<palette id="6" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Полосы#quot; id=#quot;34412#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Полосы.indl#quot; libraryName=#quot;Полосы.indl#quot;>
@@ -133,8 +133,8 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="14" is-closed="false">
-				<palette id="11" is-closed="false" preferred-unconstrained-size="374 313" preferred-constrained-size="374 225" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="11" is-closed="false">
+				<palette id="11" is-closed="false" preferred-unconstrained-size="374 313" preferred-constrained-size="374 313" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 				<palette id="12" is-closed="false" preferred-unconstrained-size="343 684" preferred-constrained-size="343 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Script_PanelName#quot; id=#quot;52229#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
@@ -167,7 +167,7 @@
 				<palette id="17" is-closed="false" preferred-unconstrained-size="240 138" preferred-constrained-size="240 138" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Color#quot; id=#quot;29241#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="18" is-closed="false" preferred-unconstrained-size="271 666" preferred-constrained-size="271 116" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="18" is-closed="false" preferred-unconstrained-size="271 666" preferred-constrained-size="271 666" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
@@ -180,7 +180,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="22" is-closed="false">
+			<tab-group active-palette="20" is-closed="false">
 				<palette id="20" is-closed="false" preferred-unconstrained-size="240 201" preferred-constrained-size="240 201" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TransparencyPaletteName#quot; id=#quot;67841#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;EffectsPanelOptions effectsTargetsExpanded=#quot;true#quot;>
 #lt;/EffectsPanelOptions>
@@ -279,7 +279,7 @@
 #lt;/ControlSet>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="28" is-closed="false" preferred-unconstrained-size="276 664" preferred-constrained-size="276 664" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character Styles#quot; id=#quot;8465#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="28" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 708" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character Styles#quot; id=#quot;8465#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;8474#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;/OWLPaletteLeaf>

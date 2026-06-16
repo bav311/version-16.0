@@ -115,7 +115,7 @@ function main() {
 	// Query [[7_1_удалть 7-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -124,7 +124,7 @@ function main() {
 	// Query [[7_2_удалть 6-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -133,7 +133,7 @@ function main() {
 	// Query [[7_3_удалть 5-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^5|05:.*\\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^5|05:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}

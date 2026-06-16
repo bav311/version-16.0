@@ -9,7 +9,7 @@
 </QueryType>
 </Header>
 <Description>
-<FindExpression value="^6|06:.*\r*(?=Вторник|Среда|Четверг|Пятница|Суббота|Воскресенье)">
+<FindExpression value="^6|06:.*\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)">
 </FindExpression>
 <ReplaceExpression value="">
 </ReplaceExpression>
