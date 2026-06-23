@@ -19,7 +19,7 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;67853#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;113362#quot; visible=#quot;true#quot;>
+#lt;ControlSet id=#quot;113362#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70931#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -28,8 +28,6 @@
 #lt;ControlSet id=#quot;70925#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70970#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -65,13 +63,11 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
+#lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
 #lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;71018#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70996#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -91,6 +87,10 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;130619#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
+#lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;71018#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
 #lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70923#quot; visible=#quot;true#quot;>
@@ -104,75 +104,46 @@
 	<dock anchor="left" content="palette toolbar" is-closed="false"/>
 	<dock anchor="right" content="palette toolbar" is-closed="false">
 		<tab-pane mode="icon" preferred-iconic-length="199" layout-mode="auto-flow">
-			<tab-group active-palette="5" is-closed="false">
-				<palette id="2" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Design#quot; id=#quot;34405#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Design.indl#quot; libraryName=#quot;Design.indl#quot;>
+			<tab-group active-palette="3" is-closed="false">
+				<palette id="2" is-closed="false" preferred-unconstrained-size="343 665" preferred-constrained-size="343 225" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="3" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Цветы#quot; id=#quot;34406#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Цветы.indl#quot; libraryName=#quot;Цветы.indl#quot;>
+				<palette id="3" is-closed="false" preferred-unconstrained-size="343 684" preferred-constrained-size="343 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Script_PanelName#quot; id=#quot;52229#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="4" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;2024 Цветы#quot; id=#quot;34413#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\2024 Цветы.indl#quot; libraryName=#quot;2024 Цветы.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="5" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Инфографика#quot; id=#quot;34407#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Инфографика.indl#quot; libraryName=#quot;Инфографика.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="6" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Полосы#quot; id=#quot;34412#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Полосы.indl#quot; libraryName=#quot;Полосы.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="7" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Реклама 2019#quot; id=#quot;34411#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Реклама 2019.indl#quot; libraryName=#quot;Реклама 2019.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="8" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Заставки#quot; id=#quot;34410#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Заставки.indl#quot; libraryName=#quot;Заставки.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="9" is-closed="false" preferred-unconstrained-size="374 312" preferred-constrained-size="374 312" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Праздники#quot; id=#quot;34415#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Праздники.indl#quot; libraryName=#quot;Праздники.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="10" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Подписка#quot; id=#quot;34408#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Подписка.indl#quot; libraryName=#quot;Подписка.indl#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-			</tab-group>
-			<tab-group active-palette="11" is-closed="false">
-				<palette id="11" is-closed="false" preferred-unconstrained-size="374 313" preferred-constrained-size="374 313" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="12" is-closed="false" preferred-unconstrained-size="343 684" preferred-constrained-size="343 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Script_PanelName#quot; id=#quot;52229#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
-#lt;/OWLPaletteLeaf>
-" host-cached-sizes="false"/>
-				<palette id="13" is-closed="false" preferred-unconstrained-size="252 689" preferred-constrained-size="252 689" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;PropertiesPanelName#quot; id=#quot;71040#quot; minimized=#quot;false#quot; closed=#quot;false#quot;>
+				<palette id="4" is-closed="false" preferred-unconstrained-size="252 684" preferred-constrained-size="252 684" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;PropertiesPanelName#quot; id=#quot;71040#quot; minimized=#quot;false#quot; closed=#quot;false#quot;>
 #lt;PropertiesPanelOptions visible=#quot;true#quot; workspace=#quot;My#quot;>
 #lt;/PropertiesPanelOptions>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="14" is-closed="false" preferred-unconstrained-size="290 684" preferred-constrained-size="290 80" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Pages#quot; id=#quot;6199#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+				<palette id="5" is-closed="false" preferred-unconstrained-size="285 607" preferred-constrained-size="285 607" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Pages#quot; id=#quot;6199#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;PagesPanelOptions iconSize=#quot;jumbo#quot; masterIconSize=#quot;medium#quot; pagesOnTop=#quot;false#quot; viewSetting=#quot;0#quot; masterVerticalView=#quot;true#quot; fixedSize=#quot;false#quot; masterFixedSize=#quot;true#quot; pagesThumbnails=#quot;true#quot; mastersThumbnails=#quot;true#quot; showTransparencyIcon=#quot;false#quot; showTransitionsIcon=#quot;true#quot; showRotationIcon=#quot;true#quot; splitterPosition=#quot;211#quot;>
 #lt;/PagesPanelOptions>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="15" is-closed="false">
-				<palette id="15" is-closed="false" preferred-unconstrained-size="240 332" preferred-constrained-size="240 332" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Text Wrap#quot; id=#quot;13583#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="6" is-closed="false">
+				<palette id="6" is-closed="false" preferred-unconstrained-size="240 332" preferred-constrained-size="240 332" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Text Wrap#quot; id=#quot;13583#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="18" is-closed="false">
-				<palette id="16" is-closed="false" preferred-unconstrained-size="271 681" preferred-constrained-size="271 109" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Swatches#quot; id=#quot;16385#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="9" is-closed="false">
+				<palette id="7" is-closed="false" preferred-unconstrained-size="271 681" preferred-constrained-size="271 109" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Swatches#quot; id=#quot;16385#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;16496#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;SwatchesPanelOptions displayFilter=#quot;0#quot; colorViewStyle=#quot;16388#quot; gradientViewStyle=#quot;16388#quot; colorGroupViewStyle=#quot;16388#quot; bothViewStyle=#quot;16388#quot;>
 #lt;/SwatchesPanelOptions>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="17" is-closed="false" preferred-unconstrained-size="240 138" preferred-constrained-size="240 138" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Color#quot; id=#quot;29241#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+				<palette id="8" is-closed="false" preferred-unconstrained-size="240 138" preferred-constrained-size="240 138" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Color#quot; id=#quot;29241#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="18" is-closed="false" preferred-unconstrained-size="271 666" preferred-constrained-size="271 666" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="9" is-closed="false" preferred-unconstrained-size="271 666" preferred-constrained-size="271 116" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Separations Preview#quot; id=#quot;71937#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="19" is-closed="false">
-				<palette id="19" is-closed="false" preferred-unconstrained-size="240 176" preferred-constrained-size="240 176" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kTablePanelTitle#quot; id=#quot;67125#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="10" is-closed="false">
+				<palette id="10" is-closed="false" preferred-unconstrained-size="240 176" preferred-constrained-size="240 176" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kTablePanelTitle#quot; id=#quot;67125#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;67304#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;67305#quot; visible=#quot;true#quot;>
@@ -180,17 +151,17 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="20" is-closed="false">
-				<palette id="20" is-closed="false" preferred-unconstrained-size="240 201" preferred-constrained-size="240 201" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TransparencyPaletteName#quot; id=#quot;67841#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="13" is-closed="false">
+				<palette id="11" is-closed="false" preferred-unconstrained-size="240 201" preferred-constrained-size="240 201" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TransparencyPaletteName#quot; id=#quot;67841#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;EffectsPanelOptions effectsTargetsExpanded=#quot;true#quot;>
 #lt;/EffectsPanelOptions>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="21" is-closed="false" preferred-unconstrained-size="240 282" preferred-constrained-size="240 282" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Pathfinder#quot; id=#quot;99625#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="12" is-closed="false" preferred-unconstrained-size="240 282" preferred-constrained-size="240 282" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Pathfinder#quot; id=#quot;99625#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="22" is-closed="false" preferred-unconstrained-size="522 637" preferred-constrained-size="522 130" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;#hash;LinksUIPanel#quot; id=#quot;132609#quot; minimized=#quot;false#quot; closed=#quot;false#quot;>
-#lt;LinksUIPanelOptions rowHeight=#quot;22#quot; secondarySorter=#quot;35940#quot; sorter=#quot;35944#quot; splitterPos=#quot;536#quot; infoPaneHidden=#quot;true#quot; sortAscending=#quot;false#quot; showThumbnail=#quot;true#quot; collapseMultiple=#quot;true#quot; showInfoThumbnail=#quot;false#quot;>
+				<palette id="13" is-closed="false" preferred-unconstrained-size="522 637" preferred-constrained-size="522 130" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;#hash;LinksUIPanel#quot; id=#quot;132609#quot; minimized=#quot;false#quot; closed=#quot;false#quot;>
+#lt;LinksUIPanelOptions rowHeight=#quot;22#quot; secondarySorter=#quot;35940#quot; sorter=#quot;35944#quot; splitterPos=#quot;536#quot; infoPaneHidden=#quot;true#quot; sortAscending=#quot;true#quot; showThumbnail=#quot;true#quot; collapseMultiple=#quot;true#quot; showInfoThumbnail=#quot;false#quot;>
 #lt;LinkInfoColumn infoClass=#quot;35940#quot; columnWidth=#quot;125#quot;>#lt;/LinkInfoColumn>
 #lt;LinkInfoColumn infoClass=#quot;35944#quot; columnWidth=#quot;16#quot;>#lt;/LinkInfoColumn>
 #lt;LinkInfoColumn infoClass=#quot;35942#quot; columnWidth=#quot;20#quot;>#lt;/LinkInfoColumn>
@@ -235,8 +206,8 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="23" is-closed="false">
-				<palette id="23" is-closed="false" preferred-unconstrained-size="240 295" preferred-constrained-size="240 295" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Paragraph#quot; id=#quot;27162#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="14" is-closed="false">
+				<palette id="14" is-closed="false" preferred-unconstrained-size="240 295" preferred-constrained-size="240 295" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Paragraph#quot; id=#quot;27162#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;27297#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;27298#quot; visible=#quot;true#quot;>
@@ -251,7 +222,7 @@
 #lt;/ControlSet>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="24" is-closed="false" preferred-unconstrained-size="240 206" preferred-constrained-size="240 206" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character#quot; id=#quot;26901#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+				<palette id="15" is-closed="false" preferred-unconstrained-size="240 206" preferred-constrained-size="240 206" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character#quot; id=#quot;26901#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;27048#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;27049#quot; visible=#quot;true#quot;>
@@ -263,39 +234,68 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="25" is-closed="false">
-				<palette id="25" is-closed="false" preferred-unconstrained-size="240 332" preferred-constrained-size="240 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;#hash;LayerHierPanelName#quot; id=#quot;18464#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="16" is-closed="false">
+				<palette id="16" is-closed="false" preferred-unconstrained-size="240 332" preferred-constrained-size="240 68" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;#hash;LayerHierPanelName#quot; id=#quot;18464#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;LayerPaneOptions SmallRows=#quot;false#quot;>
 #lt;/LayerPaneOptions>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="26" is-closed="false" preferred-unconstrained-size="264 312" preferred-constrained-size="264 312" current-state="3" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Stroke#quot; id=#quot;11035#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+				<palette id="17" is-closed="false" preferred-unconstrained-size="264 312" preferred-constrained-size="264 312" current-state="3" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Stroke#quot; id=#quot;11035#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="27" is-closed="false">
-				<palette id="27" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Paragraph Styles#quot; id=#quot;8466#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="18" is-closed="false">
+				<palette id="18" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Paragraph Styles#quot; id=#quot;8466#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;8478#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="28" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 708" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character Styles#quot; id=#quot;8465#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="19" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 708" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Character Styles#quot; id=#quot;8465#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;8474#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="29" is-closed="false" preferred-unconstrained-size="276 664" preferred-constrained-size="276 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TableStyles#quot; id=#quot;132096#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="20" is-closed="false" preferred-unconstrained-size="276 664" preferred-constrained-size="276 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;TableStyles#quot; id=#quot;132096#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="30" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;CellStyles#quot; id=#quot;132112#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="21" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;CellStyles#quot; id=#quot;132112#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
-				<palette id="31" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;ObjStylesTreeViewPanelName#quot; id=#quot;113153#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
+				<palette id="22" is-closed="false" preferred-unconstrained-size="332 708" preferred-constrained-size="332 92" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;ObjStylesTreeViewPanelName#quot; id=#quot;113153#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="32" is-closed="false">
-				<palette id="32" is-closed="false" preferred-unconstrained-size="240 271" preferred-constrained-size="240 271" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Align#quot; id=#quot;25871#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+			<tab-group active-palette="23" is-closed="false">
+				<palette id="23" is-closed="false" preferred-unconstrained-size="240 271" preferred-constrained-size="240 271" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Align#quot; id=#quot;25871#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+			</tab-group>
+			<tab-group active-palette="25" is-closed="false">
+				<palette id="24" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Design#quot; id=#quot;34405#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Design.indl#quot; libraryName=#quot;Design.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="25" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Цветы#quot; id=#quot;34406#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Цветы.indl#quot; libraryName=#quot;Цветы.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="26" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;2024 Цветы#quot; id=#quot;34413#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\2024 Цветы.indl#quot; libraryName=#quot;2024 Цветы.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="27" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Инфографика#quot; id=#quot;34407#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Инфографика.indl#quot; libraryName=#quot;Инфографика.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="28" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Полосы#quot; id=#quot;34412#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Полосы.indl#quot; libraryName=#quot;Полосы.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="29" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Реклама 2019#quot; id=#quot;34411#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Реклама 2019.indl#quot; libraryName=#quot;Реклама 2019.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="30" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Заставки#quot; id=#quot;34410#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Заставки.indl#quot; libraryName=#quot;Заставки.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="31" is-closed="false" preferred-unconstrained-size="374 312" preferred-constrained-size="374 312" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Праздники#quot; id=#quot;34415#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Праздники.indl#quot; libraryName=#quot;Праздники.indl#quot;>
+#lt;/OWLPaletteLeaf>
+" host-cached-sizes="false"/>
+				<palette id="32" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 518" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Подписка#quot; id=#quot;34408#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Подписка.indl#quot; libraryName=#quot;Подписка.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
@@ -511,7 +511,7 @@
 			</tab-group>
 		</tab-pane>
 	</dock>
-	<dock anchor="none" content="palette toolbar" origin="537 477" is-closed="true">
+	<dock anchor="none" content="palette toolbar" origin="838 387" is-closed="true">
 		<tab-pane mode="expanded" preferred-iconic-length="0" layout-mode="manual">
 			<tab-group active-palette="57" is-closed="false">
 				<palette id="57" is-closed="false" preferred-unconstrained-size="240 81" preferred-constrained-size="240 81" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Script Tag#quot; id=#quot;78850#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>

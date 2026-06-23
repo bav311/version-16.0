@@ -19,6 +19,15 @@ function main() {
 	var options = app.findChangeGrepOptions.properties;
 	app.findGrepPreferences = NothingEnum.NOTHING;
 	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[0_96_удалить ведущие нули]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^0(?=\\d)"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
 	// Query [[1TV]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
@@ -115,7 +124,7 @@ function main() {
 	// Query [[7_1_удалть 7-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^7|07:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^7:.*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -124,7 +133,7 @@ function main() {
 	// Query [[7_2_удалть 6-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^6|06:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^6:.*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -133,7 +142,34 @@ function main() {
 	// Query [[7_3_удалть 5-00 матч тв]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^5|05:.*\\r*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
+		app.findGrepPreferences.properties = ({findWhat:"^5:.*(?=^Вторник|^Среда|^Четверг|^Пятница|^Суббота|^Воскресенье)"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[7_4_5-00 перед каналом]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^5:\\d{2}.+\\r(?=[А-ЯЁ]{2,}(\\r|$))"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[7_4_6-00 перед каналом]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^6:\\d{2}.+\\r(?=[А-ЯЁ]{2,}(\\r|$))"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[7_4_7-00 перед каналом]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^7:\\d{2}.+\\r(?=[А-ЯЁ]{2,}(\\r|$))"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
@@ -161,15 +197,6 @@ function main() {
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
 		app.findGrepPreferences.properties = ({findWhat:"\\s+\\Z"});
-		app.changeGrepPreferences.properties = ({});
-		changeObject.changeGrep();
-	} catch (e) {alert(e + ' at line ' + e.line)}
-	app.findGrepPreferences = NothingEnum.NOTHING;
-	app.changeGrepPreferences = NothingEnum.NOTHING;
-	// Query [[96_удалить ведущие нули]] -- If you delete this comment you break the update function
-	try {
-		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^0(?=\\d)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}

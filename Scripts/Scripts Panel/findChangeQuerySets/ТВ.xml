@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <set type="array">
+  <item type="grep" view="0" name="0_96_удалить ведущие нули"/>
   <item type="grep" view="0" name="1TV"/>
   <item type="grep" view="0" name="2TV Style"/>
   <item type="grep" view="0" name="3TV Day"/>
@@ -9,11 +10,13 @@
   <item type="grep" view="0" name="71_Прямая трансляция"/>
   <item type="grep" view="0" name="72_Смешанные единоборства"/>
   <item type="grep" view="0" name="73_Исторические концерты"/>
-  <item type="grep" view="0" name="81_ удалить пустые строки"/>
-  <item type="grep" view="0" name="94_удалить 6-00 в конце фрейма"/>
-  <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
   <item type="grep" view="0" name="7_1_удалть 7-00 матч тв"/>
   <item type="grep" view="0" name="7_2_удалть 6-00 матч тв"/>
   <item type="grep" view="0" name="7_3_удалть 5-00 матч тв"/>
-  <item type="grep" view="0" name="96_удалить ведущие нули"/>
+  <item type="grep" view="0" name="7_4_5-00 перед каналом"/>
+  <item type="grep" view="0" name="7_4_6-00 перед каналом"/>
+  <item type="grep" view="0" name="7_4_7-00 перед каналом"/>
+  <item type="grep" view="0" name="81_ удалить пустые строки"/>
+  <item type="grep" view="0" name="94_удалить 6-00 в конце фрейма"/>
+  <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
 </set>
