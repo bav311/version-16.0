@@ -2,6 +2,12 @@
 <glyphset>
 <insert-order value="-1"></insert-order>
 <glyph>
+<font psname="FontAwesome" technology="TrueType" remember="true">
+</font>
+<unicode value="F2B5" />
+<id value="651" />
+</glyph>
+<glyph>
 <font psname="Wingdings2" technology="TrueType" remember="true">
 </font>
 <unicode value="F098" />
