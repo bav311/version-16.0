@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<set type="array">
+  <item type="grep" view="0" name="81_Помяните"/>
+  <item type="grep" view="0" name="81_Помяните деревня"/>
+  <item type="grep" view="0" name="81_Помяните подпись"/>
+  <item type="grep" view="0" name="81_Помяните ФИО"/>
+  <item type="grep" view="0" name="81_ удалить пустые строки"/>
+  <item type="grep" view="0" name="95_удалить_Пустые строки в конце файл"/>
+</set>
