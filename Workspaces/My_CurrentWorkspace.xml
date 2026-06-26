@@ -31,21 +31,9 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;25872#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
+#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
 #lt;ControlSet id=#quot;70970#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70914#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70915#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70990#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;70991#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;11035#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;8489#quot; visible=#quot;false#quot;>
-#lt;/ControlSet>
-#lt;ControlSet id=#quot;71002#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70916#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -65,9 +53,21 @@
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;70997#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
+#lt;ControlSet id=#quot;71002#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
-#lt;ControlSet id=#quot;25873#quot; visible=#quot;false#quot;>
+#lt;ControlSet id=#quot;70914#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70915#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70990#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70991#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;8489#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;11035#quot; visible=#quot;false#quot;>
+#lt;/ControlSet>
+#lt;ControlSet id=#quot;70926#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
 #lt;ControlSet id=#quot;30285#quot; visible=#quot;false#quot;>
 #lt;/ControlSet>
@@ -104,7 +104,7 @@
 	<dock anchor="left" content="palette toolbar" is-closed="false"/>
 	<dock anchor="right" content="palette toolbar" is-closed="false">
 		<tab-pane mode="icon" preferred-iconic-length="199" layout-mode="auto-flow">
-			<tab-group active-palette="3" is-closed="false">
+			<tab-group active-palette="2" is-closed="false">
 				<palette id="2" is-closed="false" preferred-unconstrained-size="343 665" preferred-constrained-size="343 225" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;kPreflightUIPaletteName#quot; id=#quot;133989#quot; minimized=#quot;false#quot; detailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
@@ -127,7 +127,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="9" is-closed="false">
+			<tab-group active-palette="7" is-closed="false">
 				<palette id="7" is-closed="false" preferred-unconstrained-size="271 681" preferred-constrained-size="271 109" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Swatches#quot; id=#quot;16385#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; listBoxDetailLevel=#quot;0#quot; closed=#quot;false#quot;>
 #lt;ControlSet id=#quot;16496#quot; visible=#quot;true#quot;>
 #lt;/ControlSet>
@@ -270,7 +270,7 @@
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>
 			</tab-group>
-			<tab-group active-palette="24" is-closed="false">
+			<tab-group active-palette="28" is-closed="false">
 				<palette id="24" is-closed="false" preferred-unconstrained-size="374 518" preferred-constrained-size="374 110" current-state="1" is-minimized="false" app-data="#lt;OWLPaletteLeaf name=#quot;Design#quot; id=#quot;34405#quot; minimized=#quot;false#quot; detailLevel=#quot;1#quot; closed=#quot;false#quot; dynamicPanel=#quot;true#quot; libraryPath=#quot;E:\Работа\1_In_Design_Газета\Design.indl#quot; libraryName=#quot;Design.indl#quot;>
 #lt;/OWLPaletteLeaf>
 " host-cached-sizes="false"/>

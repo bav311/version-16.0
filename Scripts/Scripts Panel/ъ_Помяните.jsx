@@ -44,8 +44,16 @@ function main() {
 
     // 4. Массив с цепочкой ваших запросов
     var grepChain = [
-	
+
         {
+            name: "2. Заголовок",
+            find: "(УХОДИТ ЖИЗНЬ.+)\\r(?=\\r)", 
+            change: "$1", 
+
+        }, 
+	
+       
+	   {
             name: "0. Удаление абзаца после фото фрейма",
             find: "(Фото большое)\\r", 
             change: "$1"
@@ -105,7 +113,8 @@ function main() {
  	   {
 			name: "7. Место для линии",
 			find: "^\\r\\r", 
-			change: "\\r"
+			change: "\\r",
+			alignCenter: true // добавляем флаг выравнивания по центру 
         },
  
 		{
@@ -219,7 +228,7 @@ function main() {
 		alert("Критическая ошибка: " + error.message);
 	}
 
-	/* // БЛОК ЗАПУСКА СЛЕДУЮЩЕГО СКРИПТА
+	// БЛОК ЗАПУСКА СЛЕДУЮЩЕГО СКРИПТА
 	try {
 		var scriptFile;
 		
@@ -241,6 +250,29 @@ function main() {
 		}
 	} catch (error) {
 		alert("Критическая ошибка: " + error.message);
-	} */
+	}
+	
+		// БЛОК ЗАПУСКА СЛЕДУЮЩЕГО СКРИПТА
+	try {
+		var scriptFile;
+		
+		// Проверяем, запущен ли скрипт из панели InDesign или из редактора
+		try {
+			scriptFile = new File(app.activeScript);
+		} catch(e) {
+			// Если app.activeScript недоступен, берем путь из среды отладки
+			scriptFile = new File($.fileName); 
+		}
 
+		var scriptFolder = scriptFile.parent; 
+		var nextScript = new File(scriptFolder + "/FrameFM.jsx"); 
+
+		if (nextScript.exists) {
+			app.doScript(nextScript, ScriptLanguage.JAVASCRIPT);
+		} else {
+			alert("Ошибка: Скрипт не найден по пути:\n" + nextScript.fsName);
+		}
+	} catch (error) {
+		alert("Критическая ошибка: " + error.message);
+	}
 }

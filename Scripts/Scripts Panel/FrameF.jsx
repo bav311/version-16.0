@@ -69,7 +69,7 @@ function main() {
     app.findTextPreferences = NothingEnum.nothing;
 
     if (count > 0) {
-        alert("Успешно заменено мест под фото: " + count);
+        // alert("Успешно заменено мест под фото: " + count);
     } else {
         alert("В выделенном фрейме текст 'Фото большое' не найден. Убедитесь, что регистр букв совпадает.");
     }
