@@ -95,4 +95,4 @@ for (var p = 0; p < pagesToExport.length; p++) {
 }
 
 // Показываем финальный отчет
-alert("Готово!\n\n" + log.join("\n"));
+//alert("Готово!\n\n" + log.join("\n"));

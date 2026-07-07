@@ -2,23 +2,15 @@
 
 // --- НАСТРОЙКИ ---
 var pagesToExport = ["7", "8"]; // Список страниц для обработки
-var targetFolderPath = "V://"; // Путь к папке сохранения
+var targetFolderPath = "E://InDesign_Exports"; // Путь к папке сохранения
 var labelName = "FileNameFrame"; // Метка (Script Label) фрейма с названием
 var brandName = "Сельская новь"; // Текст, который нужно вырезать из имени
-var pdfPresetName = "site"; // Точное имя вашего пресета без квадратных скобок
 // -----------------
 
 // Функция для получения даты в формате ДД_ММ_ГГГГ
 function getFormattedDate() {
     var d = new Date();
     return ("0" + d.getDate()).slice(-2) + "_" + ("0" + (d.getMonth() + 1)).slice(-2) + "_" + d.getFullYear();
-}
-
-// Проверяем существование PDF-пресета
-var pdfPreset = app.pdfExportPresets.itemByName(pdfPresetName);
-if (!pdfPreset.isValid) {
-    alert("Ошибка: Пресет PDF '" + pdfPresetName + "' не найден в системе!");
-    exit();
 }
 
 // Создаем папку, если её нет
@@ -74,28 +66,37 @@ for (var p = 0; p < pagesToExport.length; p++) {
     var finalBaseName = (lastFoundName !== "") ? lastFoundName : "Page_" + pageName;
     
     // Формируем итоговое имя файла
-    var fileName = finalBaseName + " стр." + pageName + ".pdf";
+    var fileName = finalBaseName + " стр." + pageName + ".idms";
     var outputFile = new File(outputFolder + "/" + fileName);
 
-    // --- НАСТРОЙКА ДИАПАЗОНА И ЭКСПОРТ В PDF ---
-    try {
-        // Указываем InDesign, какую конкретно страницу экспортировать
-        app.pdfExportPreferences.pageRange = pageName;
-        
-        // Отключаем открытие PDF в Акробате/браузере после сохранения
-        app.pdfExportPreferences.viewPDF = false;
-        
-        // Запускаем экспорт страницы с выбранным пресетом
-        doc.exportFile(ExportFormat.PDF_TYPE, outputFile, false, pdfPreset);
-        
-        log.push("Успех: " + fileName);
-    } catch (e) {
-        log.push("Ошибка на стр. " + pageName + ": " + e.message);
+    // --- СБОР ОБЪЕКТОВ И ЭКСПОРТ ---
+    var toSelect = [];
+    var pItems = page.pageItems; // Берем только объекты верхнего уровня (не внутри групп)
+    
+    for (var j = 0; j < pItems.length; j++) {
+        var itm = pItems[j];
+        // Добавляем в список, если объект и слой не заблокированы и видимы
+        if (!itm.locked && !itm.itemLayer.locked && itm.visible && itm.itemLayer.visible) {
+            toSelect.push(itm);
+        }
+    }
+
+    if (toSelect.length > 0) {
+        try {
+            // Для экспорта сниппета (.idms) нужно создать временную группу
+            var tempGroup = page.groups.add(toSelect);
+            tempGroup.exportFile(ExportFormat.INDESIGN_SNIPPET, outputFile);
+            tempGroup.ungroup(); // Разгруппировываем обратно, чтобы не портить верстку
+            log.push("Успех: " + fileName);
+        } catch (e) {
+            // Если что-то пошло не так, пытаемся разгруппировать объекты
+            if (tempGroup && tempGroup.isValid) tempGroup.ungroup();
+            log.push("Ошибка на стр. " + pageName + ": " + e.message);
+        }
+    } else {
+        log.push("Стр. " + pageName + ": нет объектов для экспорта");
     }
 }
 
 // Показываем финальный отчет
-// alert("Готово!\n\n" + log.join("\n"));
-
-
-
+//alert("Готово!\n\n" + log.join("\n"));

@@ -184,10 +184,28 @@ function main() {
 	} catch (e) {alert(e + ' at line ' + e.line)}
 	app.findGrepPreferences = NothingEnum.NOTHING;
 	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[94_удалить 7-00 в конце фрейма]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^7.+\\r*(?=\\Z)"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
 	// Query [[94_удалить 6-00 в конце фрейма]] -- If you delete this comment you break the update function
 	try {
 		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
-		app.findGrepPreferences.properties = ({findWhat:"^06.+\\r*(?=\\Z)"});
+		app.findGrepPreferences.properties = ({findWhat:"^6.+\\r*(?=\\Z)"});
+		app.changeGrepPreferences.properties = ({});
+		changeObject.changeGrep();
+	} catch (e) {alert(e + ' at line ' + e.line)}
+	app.findGrepPreferences = NothingEnum.NOTHING;
+	app.changeGrepPreferences = NothingEnum.NOTHING;
+	// Query [[94_удалить 5-00 в конце фрейма]] -- If you delete this comment you break the update function
+	try {
+		app.findChangeGrepOptions.properties = ({includeFootnotes:true, kanaSensitive:true, widthSensitive:true});
+		app.findGrepPreferences.properties = ({findWhat:"^5.+\\r*(?=\\Z)"});
 		app.changeGrepPreferences.properties = ({});
 		changeObject.changeGrep();
 	} catch (e) {alert(e + ' at line ' + e.line)}
