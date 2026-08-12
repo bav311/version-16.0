@@ -2,6 +2,12 @@
 <glyphset>
 <insert-order value="-1"></insert-order>
 <glyph>
+<font psname="Rubik-Bold" technology="TrueType" remember="true">
+</font>
+<unicode value="20BD" />
+<id value="561" />
+</glyph>
+<glyph>
 <font psname="FontAwesome" technology="TrueType" remember="true">
 </font>
 <unicode value="F2B5" />
